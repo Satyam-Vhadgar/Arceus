@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#navSection{
+    background-color:#EB5757; 
+}
+.navbar{
+    background-color: #EB5757 !important;
+}
+.navbar-nav li a {
+    color: white !important;
+    margin-left: 30px;
+}
+.navbar li a:hover{
+    color: black !important;
+}
+.navbar-brand:hover{
+    color: black !important;
+}
+.cart{
+    padding: 5px;
+}
+.hamburger{
+    color: white;
+    border: none;
+    outline: none;
+}
+.navbar-brand{
+    color: white !important;
+}
+/*****************************Main Image Secion*****************************************/
+#heroArea{
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(images/man.jpg);
+    width: 100%;
+    height: 70%;
+    background-size: cover;
+    padding: 5%;
+}
+.heroText h1{
+    font-weight: 500;
+    font-size: 60px;
+    margin-top: 50px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    margin-bottom: 10px;
+}
+.heroText{
+    color: white;
+    font-size: 30px;
+}
+#heroArea .btn{
+    padding: 6px 20px !important;
+    margin-top: 10px ;
+}
+/*****************************Way To Support*****************************************/
+#Support{
+    
+    width: 100%;
+    height: 20%;
+    background: #FFFFFF;
+    padding: 5%;
+    
+}
+
+#Support h2{
+    
+    font-family: 'Ubuntu', sans-serif;
+    
+}
+/*****************************Three Box Section*****************************************/
+#ThreeBox{
+    width: 100%;
+    height: 800px;
+    padding: 5%;
+}
+.card{
+    width: 100% !important;
+    height: 400px;
+}
+.card-img{
+    width: 100%;
+    height: 400px;
+}
+/*****************************COVID-19 Section*****************************************/
+#covid{
+    background-image:linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2)), url(images/nature.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 5%;
+}
+#covid h2{
+    color: white;
+    text-align: right;
+    font-size: 50px;
+}
+#covid p{
+    color: white;
+     text-align: right;
+    font-size: 20px;
+    font-weight: 400;
+}
+.statement{
+    float: right;
+}
+/*****************************Open 24/7 Section*****************************************/
+#open{
+    width: 100%;
+    height: 100px;
+    padding: 5%;
+}
+#open h2{
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/********************************Three Cart********************************************/
+#threeCart{
+    width: 100%;
+    height: 450px;
+}
+.Details{
+    background-color:#EB5757;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.Details:hover{
+    background: black;
+}
+
+/*********************************Footer******************************************/
+#Footer{
+    width: 100%;
+    height: 300px;
+    background: #222222;
+    position: relative;
+    padding: 5%;
+}
+.Footertext{
+    color: white;
+    text-align: justify;
+}
+
+.fab{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.fab:hover{
+    color: #EB5757;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/**********************************Media Query***************************************/
+@media only screen and (max-width: 600px) {
+    #Support{
+        height: 35%;
+    }
+    #ThreeBox{
+        height: 2000px;
+    }
+    #threeCart .card{
+        height: 420px;
+        margin-bottom: 10px;
+    }
+ }
+
+@media only screen and (max-width: 1024px) {
+    
+    #Footer{
+        position: relative;
+        top: 1500px;
+        height: 450px;
+    }
+    .Footertext{
+        text-align: center;
+    }
+    #open{
+        height: 150px;
+    }
+    #threeCart .card{
+        height: 600px !important;
+        margin-bottom: 50px;
+    }
+    
+    
+}
